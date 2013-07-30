@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dom="http://schemas.android.com/apk/res/com.example.t3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <com.example.widget.XmlEditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_edittext"
+        dom:path="/root/list"/>
+    
+    <com.example.widget.XmlEditText
+        android:id="@+id/editText2"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_edittext"
+        dom:path="/root/list2"/>
+
+</RelativeLayout>
