@@ -1,4 +1,4 @@
-package com.shev.hibernate_helloworld;
+package com.shev.hibernate_helloworld_annotations;
 
 import org.hibernate.HibernateException;
 import org.hibernate.SessionFactory;
